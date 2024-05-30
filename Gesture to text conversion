@@ -82,6 +82,8 @@ print("svm classification_report")
 print(classification_report(y_pred, y_test, labels=None)) 
 print("svm confusion_matrix") 
 print(cmrf) 
+
+
 import matplotlib.pyplot as plt 
 import seaborn as sns 
 from sklearn.metrics import confusion_matrix 
