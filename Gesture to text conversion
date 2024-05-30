@@ -116,7 +116,9 @@ plt.bar(model_names, accuracies, color=['green', 'blue', 'red'])
 plt.title('Accuracy of Different Models') 
 plt.ylabel('Accuracy (%)') 
 plt.ylim(60, 100) # Set y-axis limit to represent accuracy percentage 
-plt.show() 
+plt.show()
+
+
 import pandas as pd 
 from sklearn.model_selection import train_test_split 
 from sklearn.ensemble import RandomForestClassifier 
